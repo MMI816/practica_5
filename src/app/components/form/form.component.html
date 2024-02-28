@@ -1,0 +1,20 @@
+
+<form #formNews="ngForm" (ngSubmit)="getDataNew(formNews)">
+    <div>
+        <label for="titulo">Título</label>
+        <input type="text" id="titulo" name="titulo" gModel>
+    </div>
+    <div>
+        <label for="imagen">Imagen</label>
+        <input type="text" id="imagen" name="image" ngModel>
+    </div>
+    <div>
+        <label for="body">Cuerpo noticia</label>
+        <textarea id="body" cols="30" rows="10" name="body" ngModel></textarea>
+    </div>
+    <div>
+        <label for="fecha">Fecha de publicación</label>
+        <input type="date" id="date" name="date" ngModel>
+    </div>
+    <input type="submit" value="Enviar" class="btn">
+</form>

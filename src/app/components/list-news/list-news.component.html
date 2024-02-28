@@ -1,0 +1,9 @@
+<h2>Listado de noticias</h2>
+<hr>
+<div class="row">
+    @for (noticia of arrNoticias; track noticia.titulo) {
+    <article>
+        <app-new-card [miNoticia]="noticia"></app-new-card>
+    </article>
+    }
+</div>

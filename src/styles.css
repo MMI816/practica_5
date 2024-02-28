@@ -16,21 +16,3 @@ img {
     display: block;
 }
 
-/*inicio listado*/
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-.row article {
-    border: 1px solid #eee;
-    box-shadow: 1px 1px 7px #ccc;
-    padding: 10px;
-}
-
-@media (min-width: 800px){
-    .row article {
-        width: calc(33.333% - 10px);
-    }
-}
