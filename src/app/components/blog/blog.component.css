@@ -1,0 +1,51 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.flex aside{
+    width: 100%;
+    padding: 0px 30px;
+}
+
+.flex section{
+    width: 100%;
+    padding: 0px 30px;
+}
+
+/*inicio formulario*/
+input, label, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+/*fin formulario*/
+
+
+
+/*fin listado*/
+
+
+@media (min-width: 800px){
+    .flex aside{
+        width: 30%;
+    }
+
+    .flex section{
+        width: 70%;
+    }
+
+    .row article {
+        width: calc(33.333% - 10px);
+    }
+}
